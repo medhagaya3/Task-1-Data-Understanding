@@ -1,0 +1,78 @@
+README.md
+# Task 1: Understanding Dataset & Data Types
+
+## 📌 Objective
+The objective of this task is to perform **Exploratory Data Analysis (EDA)** to understand dataset structure, identify different data types, analyze data quality, and evaluate the **machine learning readiness** of datasets.
+
+This task is completed as part of the **AI & ML Internship**.
+
+## 📊 Datasets Used
+
+### 1. Titanic Dataset
+The Titanic dataset contains demographic and travel information of passengers aboard the Titanic and is commonly used for binary classification problems.
+
+**Dataset Source:**  
+https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv
+
+**Target Variable:**  
+- `Survived`
+### 2. Students Performance Dataset
+The Students Performance dataset includes demographic information and academic scores of students, useful for regression and classification tasks.
+
+**Dataset Source:**  
+https://raw.githubusercontent.com/selva86/datasets/master/StudentsPerformance.csv
+
+**Possible Target Variables:**  
+- `math score`  
+- `reading score`  
+- `writing score`
+
+## 🛠 Tools & Technologies
+- Python  
+- Pandas  
+- NumPy  
+- Jupyter Notebook  
+
+## 🔍 Task Workflow
+
+### 1. Dataset Loading
+- Datasets were loaded directly from public online sources using Pandas
+- Initial rows were inspected to understand structure and features
+
+### 2. Data Type Identification
+- Features were classified as:
+  - Numerical
+  - Categorical
+  - Ordinal
+  - Binary
+
+### 3. Dataset Inspection
+- `df.info()` used to examine data types and missing values
+- `df.describe()` used to obtain statistical summaries
+
+### 4. Categorical Data Analysis
+- Unique values in categorical columns were examined
+- Data distributions and encoding requirements were identified
+
+### 5. Target Variable Identification
+- Titanic Dataset: `Survived`
+- Students Performance Dataset: Academic scores
+
+### 6. Data Quality Assessment
+- Missing values and imbalance identified in the Titanic dataset
+- Students Performance dataset found to be clean and well-structured
+- Dataset size and suitability for ML evaluated
+
+## 📈 Key Observations
+
+### Titanic Dataset
+- Contains missing values in Age, Cabin, and Embarked columns
+- Binary classification problem
+- Requires preprocessing before model building
+
+### Students Performance Dataset
+- No missing values
+- Suitable for regression and classification tasks
+- Minimal preprocessing required
+
+## 📁 Repository Structure
